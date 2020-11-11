@@ -1,0 +1,15 @@
+{
+  "presets": [
+    [
+      "@babel/env",
+      {
+        "modules": false,
+        "targets": {
+          "browsers": "> 1%, IE 11, not dead"
+        },
+        "useBuiltIns": "entry",
+        "corejs": "3"
+      }
+    ]
+  ]
+}
