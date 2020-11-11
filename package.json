@@ -8,6 +8,10 @@
     "dist/*.js",
     "styles/*.css"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Daizhen1995/vue3-highlightjs.git"
+  },
   "scripts": {
     "build": "rollup -c build/rollup.config.dev.js",
     "build:prod": "rollup -c build/rollup.config.prod.js",
