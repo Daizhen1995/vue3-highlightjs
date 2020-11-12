@@ -1,6 +1,6 @@
-# vue-highlightjs
+# vue3-highlightjs
 
-[Vue.js](https://v3.vuejs.org/) syntax highlighting made easy, using [highlight.js](https://highlightjs.org/).
+[Vue.js 3.x](https://v3.vuejs.org/) syntax highlighting made easy, using [highlight.js](https://highlightjs.org/).
 
 ## Quickstart
 
@@ -15,6 +15,7 @@ For vue-cli/vite user:
 ```javascript
 import { createApp } from 'vue'
 import VueHighlightJS from 'vue3-highlightjs'
+import 'highlight.js/styles/solarized-light.css'
 
 const app = createApp({})
 

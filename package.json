@@ -1,6 +1,6 @@
 {
   "name": "vue3-highlightjs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Syntax highlighting with highlight.js for Vue.js 3.x",
   "main": "dist/vue3-highlight.js",
   "module": "dist/vue3-highlight-es.js",
