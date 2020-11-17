@@ -1,5 +1,5 @@
 import path from 'path'
-import babel from 'rollup-plugin-babel'
+import babel from '@rollup/plugin-babel'
 
 const inputPath = path.resolve(__dirname, '../src/index.js')
 const umdOutputPath = path.resolve(__dirname, '../dist/vue3-highlight.js')

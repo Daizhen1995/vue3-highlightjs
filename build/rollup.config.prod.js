@@ -1,5 +1,5 @@
 import path from 'path'
-import babel from 'rollup-plugin-babel'
+import babel from '@rollup/plugin-babel'
 import { terser } from 'rollup-plugin-terser'
 
 const inputPath = path.resolve(__dirname, '../src/index.js')

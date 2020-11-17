@@ -1,6 +1,6 @@
 {
   "name": "vue3-highlightjs",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Syntax highlighting with highlight.js for Vue.js 3.x",
   "main": "dist/vue3-highlight.js",
   "module": "dist/vue3-highlight-es.js",
@@ -34,10 +34,10 @@
   "devDependencies": {
     "@babel/core": "^7.12.3",
     "@babel/preset-env": "^7.12.1",
+    "@rollup/plugin-babel": "^5.2.1",
     "prettier": "^2.1.2",
     "rimraf": "^3.0.2",
     "rollup": "^2.33.1",
-    "rollup-plugin-babel": "^4.4.0",
     "rollup-plugin-terser": "^7.0.2"
   },
   "peerDependencies": {
