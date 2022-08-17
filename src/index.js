@@ -10,8 +10,12 @@ export default function (app) {
       if (typeof binding.value === 'string') {
         codeNode.textContent = binding.value
       }
-
-      hljs.highlightBlock(codeNode)
+      if (Number(hljs__default["default"].versionString.slice(0, 2)) >= 11){
+        hljs.highlightElement(codeNode)
+      }
+      else{
+        hljs.highlightBlock(codeNode)
+      }
     }
   })
 }
